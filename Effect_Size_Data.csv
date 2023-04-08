@@ -1,0 +1,278 @@
+﻿Study identifier ,Author ,TE (Experimental - Control),SE,Varience ,Lower CI,Upper CI,Time point,Control ,Experimental ,Total Sample Size,Reported P-value,Risk of Bias ,Outcome category,Outcome ,Flip ,Notes,Include ,es.id
+accorsi_2014,Accorsi et al. (2014),1.2225,0.4137,0.1712,0.4117,2.0334,1,14,14,28,0.01,,Psychological,Biancardi-Stroppa Test - Accuracy ,TRUE,Assuming higher score = better,True ,1
+accorsi_2014,Accorsi et al. (2014),0.306,0.3803,0.1446,-0.4394,1.0514,1,14,14,28,0.14,,Psychological,Biancardi-Stroppa Test - Rapidity ,TRUE,Assuming higher score = better,True ,2
+bagagiolo_2022,Bagagiolo et al. (2022),1.4535,0.3685,0.1358,0.7314,2.1757,1,36,41,77,NA,,Other ,ODDI <104% - PP ,FALSE,Higher score = more asymmetry ,True ,3
+bagagiolo_2022,Bagagiolo et al. (2022),1.4355,0.3653,0.1335,0.7195,2.1515,1,48,48,96,NA,,Other ,ODDI <104% - ITT ,FALSE,Higher score = more asymmetry ,True ,4
+bagagiolo_2022,Bagagiolo et al. (2022),1.4146,0.3238,0.1048,0.78,2.0492,2,36,41,77,NA,,Other ,ODDI <104% - PP ,FALSE,Higher score = more asymmetry ,True ,5
+bagagiolo_2022,Bagagiolo et al. (2022),1.3609,0.3065,0.0939,0.7602,1.9615,2,48,48,96,NA,,Other ,ODDI <104% - ITT ,FALSE,Higher score = more asymmetry ,True ,6
+bagagiolo_2022,Bagagiolo et al. (2022),1.4355,0.3653,0.1335,0.7195,2.1515,1,48,48,96,NA,,Other ,ODDI Score Normal - ITT,TRUE,Higher number here is better ,True ,7
+bagagiolo_2022,Bagagiolo et al. (2022),-0.3791,0.232,0.0538,-0.8338,0.756,1,48,48,96,NA,,Other ,ODDI Score Mild - ITT,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,8
+bagagiolo_2022,Bagagiolo et al. (2022),0.5631,0.2336,0.0546,0.1053,1.0209,1,48,48,96,NA,,Other ,ODDI Score Moderate - ITT,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,9
+bagagiolo_2022,Bagagiolo et al. (2022),-0.9289,0.6151,0.3783,-2.1344,0.2766,1,48,48,96,NA,,Other ,ODDI Score Severe  - ITT,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,10
+bagagiolo_2022,Bagagiolo et al. (2022),1.2821,0.3744,0.1402,0.5482,2.016,1,36,41,77,NA,,Other ,ODDI Score Normal - PP,TRUE,Higher number here is better ,True ,11
+bagagiolo_2022,Bagagiolo et al. (2022),-0.4816,0.2638,0.0696,-0.9986,0.0354,1,36,41,77,NA,,Other ,ODDI Score Mild - PP,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,12
+bagagiolo_2022,Bagagiolo et al. (2022),-0.3061,0.2771,0.0768,-0.8493,0.237,1,36,41,77,NA,,Other ,ODDI Score Moderate - PP,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,13
+bagagiolo_2022,Bagagiolo et al. (2022),1.1879,0.4403,0.1939,0.3249,2.0509,1,36,41,77,NA,,Other ,ODDI Score Severe  - PP,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,14
+bagagiolo_2022,Bagagiolo et al. (2022),1.3609,0.3065,0.0939,0.7602,1.9615,2,48,48,96,NA,,Other ,ODDI Score Normal - ITT,TRUE,Higher number here is better ,True ,15
+bagagiolo_2022,Bagagiolo et al. (2022),-0.9208,0.2461,0.0606,-1.4031,-0.4384,2,48,48,96,NA,,Other ,ODDI Score Mild - ITT,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,16
+bagagiolo_2022,Bagagiolo et al. (2022),-0.6506,0.4653,0.2165,-1.5625,0.2613,2,48,48,96,NA,,Other ,ODDI Score Moderate - ITT,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,17
+bagagiolo_2022,Bagagiolo et al. (2022),0,0.5632,0.3172,-1.1038,1.1038,2,48,48,96,NA,,Other ,ODDI Score Severe  - ITT,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,18
+bagagiolo_2022,Bagagiolo et al. (2022),1.4146,0.3238,0.1048,0.78,2.0492,2,36,41,77,NA,,Other ,ODDI Score Normal - PP,TRUE,Higher number here is better ,True ,19
+bagagiolo_2022,Bagagiolo et al. (2022),-1.0038,0.2826,0.0799,-1.5577,-0.4498,2,36,41,77,NA,,Other ,ODDI Score Mild - PP,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,20
+bagagiolo_2022,Bagagiolo et al. (2022),-0.7428,0.4696,0.2206,-1.6633,0.1777,2,36,41,77,NA,,Other ,ODDI Score Moderate - PP,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,21
+bagagiolo_2022,Bagagiolo et al. (2022),-0.0749,0.5663,0.3207,-1.1848,1.035,2,36,41,77,NA,,Other ,ODDI Score Severe  - PP,FALSE,Lower numbers of these is probably better - although I don't know how comparable these are. Included for completeness ,True ,22
+bendixen_2021,Bendixen et al. (2021),-0.415,0.3361,0.113,-1.0737,0.2438,1,36,12,48,0.2,,Baby,Mean length of stay,FALSE,Lower is better here,False ,23
+bendixen_2021,Bendixen et al. (2021),-0.4407,0.3365,0.1132,-1.1001,0.2187,1,36,12,48,0.21,,Baby,Mean length of stay - intubated neonates ,FALSE,Lower is better here,False ,24
+bendixen_2021,Bendixen et al. (2021),0,0.3385,0.1146,-0.6635,0.6635,1,32,12,44,NS,,Baby,Median (treated as mean) days with NG tube ,FALSE,Lower is better here ,False ,25
+bendixen_2021,Bendixen et al. (2021),0.1221,0.3716,0.1381,-0.6062,0.8505,1,36,12,48,NS ,,Baby,Bottlefeeding %,TRUE,Not sure what to make of this ,False ,26
+bendixen_2021,Bendixen et al. (2021),-0.1934,0.4809,0.2312,-1.1359,0.7491,1,36,12,48,NS ,,Baby,Breastfeeding %,TRUE,Not sure what to make of this ,False ,27
+bendixen_2021,Bendixen et al. (2021),0.3937,0.4535,0.2057,-0.4952,1.2826,1,36,12,48,NS,,Baby,Both %,TRUE,Not sure what to make of this ,False ,28
+castejon-castejon_2022,Castejon-Castejon et al. (2022),-1.7049,0.3197,0.1022,-2.3314,-1.0783,1,25,29,54,0,,Baby,Crying,FALSE,Crying diary - number of hours in 24hrs,True ,29
+castejon-castejon_2022,Castejon-Castejon et al. (2022),1.0659,0.2921,0.0853,0.4934,1.6383,1,25,29,54,0,,Sleep,Sleep,TRUE,Total number or hours slept in 24,True ,30
+castejon-castejon_2022,Castejon-Castejon et al. (2022),-1.796,0.3244,0.1052,-2.4318,-1.1602,1,25,29,54,0,,Baby,Severity ICSQ,FALSE,Unclear. Most likely low - high (most severe colic),True ,31
+castejon-castejon_2022,Castejon-Castejon et al. (2022),-2.8298,0.3884,0.1508,-3.591,-2.0686,2,25,29,54,0,,Sleep,Crying,FALSE,Crying diary - number of hours in 24hrs,True ,32
+castejon-castejon_2022,Castejon-Castejon et al. (2022),1.424,0.3063,0.0938,0.8237,2.0244,2,25,29,54,0,,Sleep,Sleep,TRUE,Total number or hours slept in 24,True ,33
+castejon-castejon_2022,Castejon-Castejon et al. (2022),-3.0285,0.4024,0.1619,-3.8172,-2.2398,2,25,29,54,0,,Baby,Severity ICSQ,FALSE,Unclear. Most likely low - high (most severe colic),True ,34
+castejon-castejon_2022,Castejon-Castejon et al. (2022),-2.5052,0.3665,0.1343,-3.2235,-1.7869,3,25,29,54,0,,Baby,Crying,FALSE,Crying diary - number of hours in 24hrs,True ,35
+castejon-castejon_2022,Castejon-Castejon et al. (2022),1.4247,0.3063,0.0938,0.8243,2.025,3,25,29,54,0,,Sleep,Sleep,TRUE,Total number or hours slept in 24,True ,36
+castejon-castejon_2022,Castejon-Castejon et al. (2022),-3.3064,0.4227,0.1787,-4.1349,-2.4778,3,25,29,54,0,,Baby,Severity ICSQ,FALSE,Unclear. Most likely low - high (most severe colic),True ,37
+castro_sanchez_2010,Castro Sanchez et al. (2010),-1.414,0.2335,0.0545,-1.8716,-0.9556,1,46,46,92,0.039,,Pain ,Impression of improvement,TRUE,(1) worst - (7) best ,True ,38
+castro_sanchez_2010,Castro Sanchez et al. (2010),-0.3278,0.2099,0.0441,-0.7393,0.0836,1,46,46,92,0.047,,Pain ,Impression of severity,TRUE,(1) worst - (7) best ,True ,39
+castro_sanchez_2010,Castro Sanchez et al. (2010),-0.3973,0.2106,0.0444,-0.8101,0.0154,2,46,46,92,0.046,,Pain ,Impression of improvement,TRUE,(1) worst - (7) best ,True ,40
+castro_sanchez_2010,Castro Sanchez et al. (2010),-0.0399,0.2085,0.0435,-0.4486,0.3688,2,46,46,92,0.059,,Pain ,Impression of severity,TRUE,(1) worst - (7) best ,True ,41
+castro_sanchez_2010,Castro Sanchez et al. (2010),-0.3779,0.2104,0.0443,-0.7902,0.0345,3,46,46,92,0.048,,Pain ,Impression of improvement,TRUE,(1) worst - (7) best ,True ,42
+castro_sanchez_2010,Castro Sanchez et al. (2010),-0.0497,0.2085,0.0435,-0.4584,0.359,3,46,46,92,0.072,,Pain ,Impression of severity,TRUE,(1) worst - (7) best ,True ,43
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.7438,0.2587,0.0669,-1.2509,-0.2368,1,32,32,64,0.06,,Function,RMQ,FALSE,0 (no disability) to 24 (maximum possible disability),True ,44
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.5354,0.2545,0.0648,-1.0343,-0.0364,1,32,32,64,0.057,,Function,ODI,FALSE,0 (no problem at all) to 50 (not possible),True ,45
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.5513,0.2548,0.0649,-1.0507,-0.0518,1,32,32,64,0.008,,Pain ,"Pain Intensity, NPRS",FALSE,"0: no pain, 10: maximum pain",True ,46
+castro_sanchez_2016,Castro Sanchez et al. (2016),0.2169,0.2508,0.0629,-0.2746,0.7084,1,32,32,64,0.919,,Psychological,Tampa Scale of Kinesiophobia ,FALSE,"17 to 68 points, where higher values reflect greater fear of (re)injury",True ,47
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.043,0.25,0.0625,-0.5331,0.447,1,32,32,64,0.318,,Function,McQuade test (sec),TRUE,number of seconds that the position was maintained up to a maximum of 120 seconds,True ,48
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.3727,0.2522,0.0636,-0.867,0.1217,1,32,32,64,0.498,,Function,Finger-to-floor distance (cm) ,FALSE,The distance (in centimeters) from the tip of the third finger to the floor was measured after 2 seconds.,True ,49
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.612,0.2559,0.0655,-1.1136,-0.1104,2,32,32,64,0.21,,Function,RMQ,FALSE,0 (no disability) to 24 (maximum possible disability),True ,50
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.4906,0.2538,0.0644,-0.9881,0.0069,2,32,32,64,0.108,,Function,ODI,FALSE,0 (no problem at all) to 50 (not possible),True ,51
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.4842,0.2537,0.0644,-0.9815,0.0131,2,32,32,64,0.009,,Pain ,"Pain Intensity, NPRS",FALSE,"0: no pain, 10: maximum pain",True ,52
+castro_sanchez_2016,Castro Sanchez et al. (2016),0.2632,0.2511,0.0631,-0.229,0.7554,2,32,32,64,0.779,,Function,Tampa Scale of Kinesiophobia ,FALSE,"17 to 68 points, where higher values reflect greater fear of (re)injury",True ,53
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.2773,0.2512,0.0631,-0.7697,0.2151,2,32,32,64,0.808,,Function,McQuade test (sec),TRUE,number of seconds that the position was maintained up to a maximum of 120 seconds,True ,54
+castro_sanchez_2016,Castro Sanchez et al. (2016),-0.2448,0.251,0.063,-0.7367,0.2471,2,32,32,64,0.919,,Function,Finger-to-floor distance (cm) ,FALSE,The distance (in centimeters) from the tip of the third finger to the floor was measured after 2 seconds.,True ,55
+cerrotelli_2013,Cerrotelli et al. (2013),-0.2731,0.2004,0.0402,-0.6659,0.1197,1,54,47,101,0.03,,Baby,LOS (days) ,FALSE,Longer stay is worse,True ,56
+cerrotelli_2013,Cerrotelli et al. (2013),0.9292,0.2101,0.0441,0.5174,1.3409,1,54,47,101,0.001,,Baby,LOS (days)*,FALSE,Longer stay is worse,False ,57
+cerrotelli_2013,Cerrotelli et al. (2013),0.2668,0.2004,0.402,-0.1259,0.6596,1,54,47,101,0.06,,Baby,Avg daily weight gain (g)*,TRUE,Higher weight gain is good,False ,58
+duncan_2008,Duncan et al. (2008),-0.4937,0.3391,0.115,-1.1583,0.171,1,17,19,36,NS,,Function,Gross motor function classification system,FALSE,(1) least severe - (5) most severe,True ,59
+duncan_2008,Duncan et al. (2008),0.5063,0.3394,0.1152,-0.1589,1.1714,1,17,19,36,S,,Function,Gross motor function measurement,TRUE,(1) most severe - (3) least severe ,True ,60
+duncan_2008,Duncan et al. (2008),0.4788,0.3388,0.1148,-0.1853,1.1428,1,17,19,36,NS,,Function,Functional independence measure for children - self care,FALSE,(1) complete dependance - (7) complete independence ,True ,61
+duncan_2008,Duncan et al. (2008),0.5007,0.3393,0.1151,-0.1642,1.1656,1,17,19,36,NS,,Function,Functional independence measure for children - mobility,FALSE,(1) complete dependance - (7) complete independence ,True ,62
+duncan_2008,Duncan et al. (2008),0.5225,0.3397,0.1154,-0.1434,1.1883,1,17,19,36,S,,Function,Pediatric evaluation of disability inventory - self care,FALSE,"0 -100, higher score indicates more independence ",True ,63
+duncan_2008,Duncan et al. (2008),0.4605,0.3384,0.1145,-0.2028,1.1239,1,17,19,36,NS,,Function,Pediatric evaluation of disability inventory - mobility ,FALSE,"0 -100, higher score indicates more independence ",True ,64
+duncan_2008,Duncan et al. (2008),-0.8483,0.3492,0.1219,-1.5327,-0.164,1,17,19,36,NS,,Function,Spasticity,FALSE,DO rated spasticity on VAS (0) least severe - (100) most severe,True ,65
+duncan_2008,Duncan et al. (2008),-0.1296,0.3342,0.1117,-0.7846,0.5255,1,17,19,36,NS,,Function,MAS Bicep,FALSE,Modified ashword schale (0) no increase in tone - (4) affected part in rigid flexion and extension ,True ,66
+duncan_2008,Duncan et al. (2008),-0.1493,0.3343,0.1118,-0.8046,0.506,1,17,19,36,NS,,Function,MAS Hamstring,FALSE,Modified ashword schale (0) no increase in tone - (4) affected part in rigid flexion and extension ,True ,67
+duncan_2008,Duncan et al. (2008),-0.1513,0.3343,0.1118,-0.8066,0.504,1,17,19,36,NS,,Function,Parent or Guardian measured arched back,FALSE,Parent rated VAS (0) least severe - (100) most severe,True ,68
+duncan_2008,Duncan et al. (2008),-0.5469,0.3403,0.1158,-1.2139,0.1201,1,17,19,36,NS,,Function,Parent or Guardian measured startle reflex,FALSE,Parent rated VAS (0) least severe - (100) most severe,True ,69
+elden_2013,Elden et al. (2013),-0.2579,0.1936,0.0375,-0.6373,0.1214,1,51,57,108,0.017,,Pain ,"Pain related to motion, VAS morning ",FALSE,"Visual analog scale 0 - 100, 0 = no pain ",True ,70
+elden_2013,Elden et al. (2013),-0.3608,0.1943,0.0378,-0.7416,0.0201,1,51,57,108,0.084,,Pain ,"Pain related to motion, VAS evening ",FALSE,"Visual analog scale 0 - 100, 0 = no pain ",True ,71
+elden_2013,Elden et al. (2013),0.0127,0.1927,0.0372,-0.3651,0.3904,1,51,57,108,0.275,,Pain ,"Discomfort of pain, VAS",FALSE,"Visual analog scale 0 - 100, 0 = no pain ",True ,72
+elden_2013,Elden et al. (2013),-0.3111,0.1939,0.0376,-0.6912,0.0689,1,51,57,108,0.432,,Function,Oswestry Disability Index score,FALSE,0 (no disability) - 50 (completely disabled),True ,73
+elden_2013,Elden et al. (2013),-0.112,0.1929,0.0372,-0.49,0.2661,1,51,57,108,0.016,,Function,Disability Rating Index,FALSE,without difficulty = 0 and cannot do at all = 100,True ,74
+elden_2013,Elden et al. (2013),0.1557,0.193,0.0373,-0.2226,0.5341,1,51,57,108,0.303,,Psychological,European Quality of Life Measure - 5 dimensions,TRUE,0 (worst) - 100 (best),True ,75
+elden_2013,Elden et al. (2013),0.2479,0.1935,0.0374,-0.1314,0.6271,1,51,57,108,0.319,,Psychological,European Quality of Life Measure - visual analogue scale ,TRUE,0 (worst) - 100 (best),True ,76
+haller_2016,Haller et al. (2016),-1.048,0.2908,0.0845,-1.6178,-0.4781,1,27,27,54,0.001,,Pain ,VAS - primary outcome ,FALSE,"Visual analog scale 0 - 100, 0 = no pain ",True ,77
+haller_2016,Haller et al. (2016),-1.0213,0.2899,0.084,-1.5894,-0.4532,1,27,27,54,0.001,,Pain ,POM,FALSE,"Visual analog scale 0 - 100, 0 = no pain ",True ,78
+haller_2016,Haller et al. (2016),0.4678,0.276,0.0762,-0.0731,1.0087,1,27,27,54,0.038,,Pain ,Point of Max Pain (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,79
+haller_2016,Haller et al. (2016),0.5107,0.2767,0.0766,-0.0316,1.053,1,27,27,54,0.07,,Pain ,M. levator scapulae (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,80
+haller_2016,Haller et al. (2016),0.5107,0.2767,0.0766,-0.0316,1.053,1,27,27,54,0.042,,Pain ,M. trapezius capitis (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,81
+haller_2016,Haller et al. (2016),0.0507,0.2722,0.0741,-0.4828,0.5842,1,27,27,54,0.644,,Pain ,M. semispinalis capitis (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,82
+haller_2016,Haller et al. (2016),-0.6331,0.2791,0.0779,-1.1802,-0.0861,1,27,27,54,0.01,,Function,Functional disability (NDI),FALSE,1 (no disability) -100 (complete disability),True ,83
+haller_2016,Haller et al. (2016),0.0601,0.2722,0.0741,-0.4735,0.5936,1,27,27,54,0.013,,Function,Physical quality of life (SF-12),TRUE,1 (lowest level of health) - 100 (highest),True ,84
+haller_2016,Haller et al. (2016),0.4928,0.2764,0.0764,-0.049,1.0345,1,27,27,54,0.384,,Function,Physical well being (FEW),TRUE,0 (worse) - 5 (best),True ,85
+haller_2016,Haller et al. (2016),0.3083,0.2738,0.075,-0.2284,0.845,1,27,27,54,0.178,,Psychological,Mental quality of life (SF-12),TRUE,1 (lowest level of health) - 100 (highest),True ,86
+haller_2016,Haller et al. (2016),-0.1243,0.2724,0.0742,-0.6582,0.4097,1,27,27,54,0.299,,Psychological,Anxiety (HADS),FALSE,0 (no disorder) -21 (>10 possible clinical disorder) ,True ,87
+haller_2016,Haller et al. (2016),-0.1535,0.2726,0.0743,-0.6877,0.3808,1,27,27,54,0.329,,Psychological,Depression (HADS),FALSE,1 (no disorder) -21 (>10 possible clinical disorder) ,True ,88
+haller_2016,Haller et al. (2016),-0.226,0.2731,0.0746,-0.7612,0.3092,1,27,27,54,0.912,,Psychological,Stress perception (PSQ),FALSE,0 - 1 (indicating high stress),True ,89
+haller_2016,Haller et al. (2016),0,0.2722,0.0741,-0.5334,0.5334,1,27,27,54,0.392,,Psychological,Pain Acceptance (ERDA),TRUE,lower = less acceptance - higher = higher acceptance ,True ,90
+haller_2016,Haller et al. (2016),0.7138,0.2809,0.0789,0.1631,1.2644,1,27,27,54,0.001,,Psychological,Body awareness (SBC),TRUE,0 -4 (higher body awareness),True ,91
+haller_2016,Haller et al. (2016),0.162,0.2726,0.0743,-0.3723,0.6964,1,27,27,54,0.183,,Psychological,Body dissociation (SBC),FALSE,0 -4 (higher dissocation),True ,92
+haller_2016,Haller et al. (2016),-1.0841,0.292,0.0853,-1.6564,-0.5117,1,27,27,54,0,,Other ,Global improvement (PGI-I) ,FALSE,1(very much improved) to 7 (very much worse),True ,93
+haller_2016,Haller et al. (2016),-0.8337,0.2841,0.0807,-1.3904,-0.2769,2,27,27,54,0.003,,Pain ,VAS,FALSE,"Visual analog scale 0 - 100, 0 = no pain ",True ,94
+haller_2016,Haller et al. (2016),-0.7658,0.2822,0.0797,-1.319,-0.2126,2,27,27,54,0.02,,Pain ,POM,FALSE,"Visual analog scale 0 - 100, 0 = no pain ",True ,95
+haller_2016,Haller et al. (2016),0.3379,0.2742,0.0752,-0.1995,0.8752,2,27,27,54,0.163,,Pain ,Point of Max Pain (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,96
+haller_2016,Haller et al. (2016),0.1986,0.2729,0.0745,-0.3362,0.7334,2,27,27,54,0.56,,Pain ,M. levator scapulae (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,97
+haller_2016,Haller et al. (2016),0.1232,0.2724,0.0742,-0.4108,0.6571,2,27,27,54,0.778,,Pain ,M. trapezius capitis (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,98
+haller_2016,Haller et al. (2016),0.2093,0.2729,0.0745,-0.3257,0.7442,2,27,27,54,0.276,,Pain ,M. semispinalis capitis (PPT),TRUE,Based on linear application of pressure until pain. Lower threshold = worse pain ,True ,99
+haller_2016,Haller et al. (2016),-0.6552,0.2796,0.0782,-1.2032,-0.1072,2,27,27,54,0.006,,Function,Functional disability (NDI),FALSE,1 (no disability) -100 (complete disability),True ,100
+haller_2016,Haller et al. (2016),0.9472,0.2874,0.0826,0.3838,1.5106,2,27,27,54,0,,Function,Physical quality of life (SF-12),TRUE,1 (lowest level of health) - 100 (highest),True ,101
+haller_2016,Haller et al. (2016),0.4181,0.2752,0.0757,-0.1213,0.9575,2,27,27,54,0.155,,Function,Physical well being (FEW),TRUE,0 (worse) - 5 (best),True ,102
+haller_2016,Haller et al. (2016),0.1925,0.2728,0.0744,-0.3422,0.7272,2,27,27,54,0.363,,Psychological,Mental quality of life (SF-12),TRUE,1 (lowest level of health) - 100 (highest),True ,103
+haller_2016,Haller et al. (2016),-0.4373,0.2755,0.0759,-0.9773,0.1026,2,27,27,54,0.02,,Psychological,Anxiety (HADS),FALSE,0 (no disorder) -21 (>10 possible clinical disorder) ,True ,104
+haller_2016,Haller et al. (2016),-0.4856,0.2763,0.0763,-1.0271,0.0559,2,27,27,54,0.079,,Psychological,Depression (HADS),FALSE,1 (no disorder) -21 (>10 possible clinical disorder) ,True ,105
+haller_2016,Haller et al. (2016),-0.4697,0.276,0.0762,-1.0106,0.0713,2,27,27,54,0.171,,Psychological,Stress perception (PSQ),FALSE,0 - 1 (indicating high stress),True ,106
+haller_2016,Haller et al. (2016),0.3569,0.2744,0.0753,-0.1809,0.8947,2,27,27,54,0.146,,Psychological,Pain Acceptance (ERDA),TRUE,lower = less acceptance - higher = higher acceptance ,True ,107
+haller_2016,Haller et al. (2016),0.1971,0.2728,0.0744,-0.3377,0.7319,2,27,27,54,0.33,,Psychological,Body awareness (SBC),TRUE,0 -4 (higher body awareness),True ,108
+haller_2016,Haller et al. (2016),0.1558,0.2726,0.0743,-0.3784,0.6901,2,27,27,54,0.935,,Psychological,Body dissociation (SBC),FALSE,0 -4 (higher dissocation),True ,109
+haller_2016,Haller et al. (2016),-0.7167,0.281,0.079,-1.2675,-0.1659,2,27,27,54,0.029,,Other ,Global improvement (PGI-I) ,FALSE,1(very much improved) to 7 (very much worse),True ,110
+hanten_1999,Hanten et al. (1999),-0.2491,0.3175,0.1008,-0.8714,0.3732,1,20,20,40,S,,Pain ,"Pain Intensity, VAS",FALSE,"CV4 only, pain was measured in mm, higher indicates more pain ",True ,111
+hanten_1999,Hanten et al. (1999),-0.0678,0.3163,0.1001,-0.6877,0.5522,1,20,20,40,S,,Pain ,"Pain Affect, VAS ",FALSE,CV4 only,True ,112
+hayden_2006,Hayden et al. (2006),0.2793,0.3799,0.1443,-0.4654,1.0239,1,14,14,28,NA,,Baby,Crying ,FALSE,Crying time / 24hrs ,True ,113
+hayden_2006,Hayden et al. (2006),-0.1295,0.3784,0.1432,-0.8711,0.6122,1,14,14,28,NA,,Sleep,Sleeping,TRUE,Time spent sleeping /24hrs ,True ,114
+hayden_2006,Hayden et al. (2006),-0.2488,0.3867,0.1496,-1.0068,0.5092,2,14,14,28,NA,,Baby,Crying ,FALSE,Crying time / 24hrs ,True ,115
+hayden_2006,Hayden et al. (2006),0.317,0.3877,0.1503,-0.443,1.0769,2,14,14,28,NA,,Sleep,Sleeping,TRUE,Time spent sleeping /24hrs ,True ,116
+hayden_2006,Hayden et al. (2006),-0.1625,0.3929,0.1544,-0.9326,0.6076,3,14,14,28,NA,,Baby,Crying ,FALSE,Crying time / 24hrs ,True ,117
+hayden_2006,Hayden et al. (2006),0.1524,0.3928,0.1543,-0.6176,0.9223,3,14,14,28,NA,,Sleep,Sleeping,TRUE,Time spent sleeping /24hrs ,True ,118
+hayden_2006,Hayden et al. (2006),-0.6631,0.4119,0.1697,-1.4704,0.1442,4,14,14,28,NA,,Baby,Crying ,FALSE,Crying time / 24hrs ,True ,119
+hayden_2006,Hayden et al. (2006),0.3433,0.4035,0.1628,-0.4475,1.134,4,14,14,28,NA,,Sleep,Sleeping,TRUE,Time spent sleeping /24hrs ,True ,120
+herzhaft_le_roy_2016,Herzhaft Le Roy et al. (2011),0.1909,0.2035,0.0414,-0.208,0.5899,1,48,49,97,NA,,Baby,LATCH Score ,TRUE,"latching skills , higher is better ",True ,121
+herzhaft_le_roy_2016,Herzhaft Le Roy et al. (2011),0.8904,0.22,0.0484,0.4592,1.3215,2,45,46,91,0.001,,Baby,LATCH Score ,TRUE,"latching skills , higher is better ",True ,122
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.6012,0.2232,0.0498,-1.0388,-0.1637,1,41,43,84,0.009,,Function,Short form-36 health survey - Physical Function,TRUE,Best function = higher score out of 100.,True ,123
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.5306,0.2222,0.0494,-0.9661,-0.0952,1,41,43,84,0.019,,Function,Short form-36 health survey - Physical Role,TRUE,Best function = higher score out of 100.,True ,124
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4781,0.2214,0.049,-0.9121,-0.0441,1,41,43,84,0.036,,Pain ,Short form-36 health survey - Body pain,TRUE,Best function = higher score out of 100.,True ,125
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.703,0.225,0.0506,-1.1441,-0.2619,1,41,43,84,0.048,,Function,Short form-36 health survey - General Health,TRUE,Best function = higher score out of 100.,True ,126
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.489,0.2216,0.0491,0.0547,0.9232,1,41,43,84,0.046,,Psychological,Short form-36 health survey - Vitality,TRUE,Best function = higher score out of 100.,True ,127
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.5001,0.2217,0.0492,-0.9347,-0.0655,1,41,43,84,0.028,,Psychological,Short form-36 health survey - Social Function ,TRUE,Best function = higher score out of 100.,True ,128
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.2351,0.219,0.048,-0.6644,0.1942,1,41,43,84,0.292,,Psychological,Short form-36 health survey - Emotional Role,TRUE,Best function = higher score out of 100.,True ,129
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.3788,0.2203,0.0485,-0.8105,0.0529,1,41,43,84,0.069,,Psychological,Short form-36 health survey - Mental Health,TRUE,Best function = higher score out of 100.,True ,130
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.8969,0.2292,0.0525,0.4477,1.3461,1,41,43,84,0.043,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - PSQ,FALSE,Higher score indicates greater dysfunction,True ,131
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.5128,0.2219,0.0492,0.0779,0.9477,1,41,43,84,0.064,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SL,FALSE,Higher score indicates greater dysfunction,True ,132
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.16,0.2186,0.0478,-0.5886,0.2685,1,41,43,84,0.042,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SD,FALSE,Higher score indicates greater dysfunction,True ,133
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4481,0.2211,0.0489,-0.8813,-0.0148,1,41,43,84,0.065,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - HSE,FALSE,Higher score indicates greater dysfunction,True ,134
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4178,0.2207,0.0487,-0.8503,0.0148,1,41,43,84,0.04,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SDI,FALSE,Higher score indicates greater dysfunction,True ,135
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.8637,0.2284,0.0522,-1.3114,-0.416,1,41,43,84,0.049,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - DD,FALSE,Higher score indicates greater dysfunction,True ,136
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4568,0.2212,0.0489,-0.8903,-0.0234,2,41,43,84,0.067,,Function,Short form-36 health survey - Physical Function,TRUE,Best function = higher score out of 100.,True ,137
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.227,0.219,0.048,-0.6563,0.2022,2,41,43,84,0.052,,Function,Short form-36 health survey - Physical Role,TRUE,Best function = higher score out of 100.,True ,138
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4185,0.2207,0.0487,-0.8511,0.0141,2,41,43,84,0.087,,Pain ,Short form-36 health survey - Body pain,TRUE,Best function = higher score out of 100.,True ,139
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.3407,0.2199,0.0483,-0.7717,0.0902,2,41,43,84,0.05,,Function,Short form-36 health survey - General Health,TRUE,Best function = higher score out of 100.,True ,140
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.3147,0.2197,0.0482,-0.1159,0.7452,2,41,43,84,0.075,,Psychological,Short form-36 health survey - Vitality,TRUE,Best function = higher score out of 100.,True ,141
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.2782,0.2194,0.0481,-0.7081,0.1518,2,41,43,84,0.053,,Psychological,Short form-36 health survey - Social Function ,TRUE,Best function = higher score out of 100.,True ,142
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.515,0.2219,0.0493,0.08,0.95,2,41,43,84,0.074,,Psychological,Short form-36 health survey - Emotional Role,TRUE,Best function = higher score out of 100.,True ,143
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.3526,0.22,0.0484,-0.7838,0.0786,2,41,43,84,0.093,,Psychological,Short form-36 health survey - Mental Health,TRUE,Best function = higher score out of 100.,True ,144
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.2942,0.2195,0.0482,-0.1359,0.7244,2,41,43,84,0.105,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - PSQ,FALSE,Higher score indicates greater dysfunction,True ,145
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.2534,0.2192,0.048,-0.6829,0.1762,2,41,43,84,0.039,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SL,FALSE,Higher score indicates greater dysfunction,True ,146
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.154,0.2186,0.0478,-0.5825,0.2744,2,41,43,84,0.047,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SD,FALSE,Higher score indicates greater dysfunction,True ,147
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.5268,0.2221,0.0493,-0.9621,-0.0915,2,41,43,84,0.045,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - HSE,FALSE,Higher score indicates greater dysfunction,True ,148
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.0978,0.2184,0.0477,-0.3303,0.5259,2,41,43,84,0.367,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SDI,FALSE,Higher score indicates greater dysfunction,True ,149
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4104,0.2206,0.0487,-0.8428,0.022,2,41,43,84,0.24,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - DD,FALSE,Higher score indicates greater dysfunction,True ,150
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.1762,0.2187,0.0478,-0.6049,0.2524,3,41,43,84,0.121,,Function,Short form-36 health survey - Physical Role,TRUE,Best function = higher score out of 100.,True ,151
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.2812,0.2194,0.0481,-0.7112,0.1487,3,41,43,84,0.234,,Pain ,Short form-36 health survey - Body pain,TRUE,Best function = higher score out of 100.,True ,152
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.1464,0.2186,0.0478,-0.5748,0.282,3,41,43,84,0.321,,Function,Short form-36 health survey - General Health,TRUE,Best function = higher score out of 100.,True ,153
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.4311,0.2208,0.0488,-0.0017,0.864,3,41,43,84,0.201,,Function,Short form-36 health survey - Vitality,TRUE,Best function = higher score out of 100.,True ,154
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4174,0.2207,0.0487,-0.85,0.0151,3,41,43,84,0.067,,Psychological,Short form-36 health survey - Social Function ,TRUE,Best function = higher score out of 100.,True ,155
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.1152,0.2185,0.0477,-0.313,0.5433,3,41,43,84,0.135,,Psychological,Short form-36 health survey - Emotional Role,TRUE,Best function = higher score out of 100.,True ,156
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.3737,0.2202,0.0485,-0.8053,0.0579,3,41,43,84,0.083,,Psychological,Short form-36 health survey - Mental Health,TRUE,Best function = higher score out of 100.,True ,157
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.382,0.2203,0.0485,-0.0498,0.8138,3,41,43,84,0.054,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - PSQ,FALSE,Higher score indicates greater dysfunction,True ,158
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.0038,0.2183,0.0476,-0.424,0.4316,3,41,43,84,0.132,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SL,FALSE,Higher score indicates greater dysfunction,True ,159
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.2529,0.2192,0.048,-0.6825,0.1766,3,41,43,84,0.04,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SD,FALSE,Higher score indicates greater dysfunction,True ,160
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),-0.4631,0.2212,0.0489,-0.8967,-0.0295,3,41,43,84,0.044,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - HSE,FALSE,Higher score indicates greater dysfunction,True ,161
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.0329,0.2183,0.0477,-0.3949,0.4608,3,41,43,84,0.088,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - SDI,FALSE,Higher score indicates greater dysfunction,True ,162
+mataran_penarrocha_2011,Mataran-Penarrocha et al. (2011),0.1781,0.2187,0.0478,-0.2506,0.6068,3,41,43,84,0.039,,Sleep,Pittsburgh Sleep Quality Index (PSQI) - DD,FALSE,Higher score indicates greater dysfunction,True ,163
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-0.7096,0.2919,0.0852,-1.2817,-0.1375,1,25,25,50,0.01,,Pain ,VAS,FALSE,0 = “absence of pain” and 10 = “worst pain imaginable”,True ,164
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-1.0087,0.3008,0.0905,-1.5983,-0.419,1,25,25,50,0.001,,Function,Functinoal disability (HDI),FALSE,0 = “no disability” to 100 = “maximum disability”,True ,165
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-0.4108,0.2859,0.0817,-0.9712,0.1495,1,25,25,50,0.15,,Function,Emotional disability (HDI),FALSE,0 = “no disability” to 100 = “maximum disability”,True ,166
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-0.7003,0.2917,0.0851,-1.2719,-0.1287,1,25,25,50,0.02,,Function,Overal disability (HDI),FALSE,0 = “no disability” to 100 = “maximum disability”,True ,167
+munoz_gomez_2022,Munoz-Gomez et al. (2022),0.8832,0.2967,0.0881,0.3016,1.4648,1,25,24,49,0.01,,Function,Medication Intake ,TRUE,% relative frequency  ,True ,168
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-1.1202,0.3254,0.1059,-1.758,-0.4824,1,25,25,50,NA,,Psychological,Self Percieved Change After Treatment (PGIC),TRUE,Minimally worse to very much improved ,True ,169
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-0.6429,0.2903,0.0843,-1.2119,-0.074,2,25,25,50,0.66,,Pain ,VAS,FALSE,0 = “absence of pain” and 10 = “worst pain imaginable”,True ,170
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-0.8758,0.2965,0.0879,-1.4569,-0.2946,2,25,25,50,0.003,,Function,Functinoal disability (HDI),FALSE,0 = “no disability” to 100 = “maximum disability”,True ,171
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-0.3473,0.285,0.0812,-0.9059,0.2114,2,25,25,50,0.22,,Function,Emotional disability (HDI),FALSE,0 = “no disability” to 100 = “maximum disability”,True ,172
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-0.6076,0.2895,0.0838,-1.175,-0.0402,2,25,25,50,0.03,,Function,Overal disability (HDI),FALSE,0 = “no disability” to 100 = “maximum disability”,True ,173
+munoz_gomez_2022,Munoz-Gomez et al. (2022),0.6958,0.2915,0.085,0.1243,1.2672,2,25,24,49,0.02,,Function,Medication Intake ,TRUE,% relative frequency  ,True ,174
+munoz_gomez_2022,Munoz-Gomez et al. (2022),-1.6167,0.366,0.124,-2.3341,-0.8984,2,25,25,50,NA,,Psychological,Self Percieved Change After Treatment (PGIC),TRUE,Minimally worse to very much improved ,True ,175
+mazreati_2021,Mazreati et al. (2021),-1.3936,0.3072,0.0944,-1.9957,-0.7915,1,26,27,53,NA,,Pain ,Sensory,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,176
+mazreati_2021,Mazreati et al. (2021),-1.2638,0.3017,0.091,-1.8551,-0.6725,1,26,27,53,NA,,Pain ,Affective,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,177
+mazreati_2021,Mazreati et al. (2021),-7.7225,0.8094,0.6551,-9.3089,-6.1361,1,26,27,53,NA,,Pain ,Pain evaluation,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,178
+mazreati_2021,Mazreati et al. (2021),-1.3043,0.3034,0.092,-1.8989,-0.7097,1,26,27,53,NA,,Pain ,Miscellanceous,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,179
+mazreati_2021,Mazreati et al. (2021),-2.7889,0.3887,0.1511,-3.5507,-2.027,1,26,27,53,NA,,Pain ,Total score of pain intensity ,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,180
+mazreati_2021,Mazreati et al. (2021),-4.5157,0.5232,0.2737,-5.5411,-3.4904,2,26,27,53,NA,,Pain ,Sensory,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,181
+mazreati_2021,Mazreati et al. (2021),-6.7491,0.7199,0.5182,-8.1601,-5.3382,2,26,27,53,NA,,Pain ,Affective,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,182
+mazreati_2021,Mazreati et al. (2021),-5.7294,0.6281,0.3945,-6.9605,-4.4983,2,26,27,53,NA,,Pain ,Pain evaluation,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,183
+mazreati_2021,Mazreati et al. (2021),-2.6768,0.381,0.1451,-3.4235,-1.9301,2,26,27,53,NA,,Pain ,Miscellanceous,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,184
+mazreati_2021,Mazreati et al. (2021),-4.1986,0.4968,0.2468,-5.1723,-3.2248,2,26,27,53,NA,,Pain ,Total score of pain intensity ,TRUE,"McGill Pain Questionnaire: pain intensity increases from top to bottom, so the lowest word has the highest score",True ,185
+philippi_2006,Philippi et al. (2006),1.2542,0.3884,0.1509,0.4929,2.0154,1,16,16,32,0.001,,Function,Total score difference,TRUE," (6 - 24; 24 indicates maximal asymmetry), larger mean value is better ",True ,186
+philippi_2006,Philippi et al. (2006),-1.155,0.3833,0.1469,-1.9063,-0.4037,1,16,16,32,NA,,Function,Mean score,FALSE, (6 - 24; 24 indicates maximal asymmetry) ,True ,187
+raith_2016,Raith et al. (2016),-0.6075,0.5303,0.2812,-1.6468,0.4318,1,12,13,25,NS,,Function,GMA,FALSE,first calculated OR then transformed to hedge's g  ,True ,188
+raith_2016,Raith et al. (2016),-0.0511,0.4004,0.1603,-0.8359,0.7336,1,12,13,25,S,,Function,GMOS ,TRUE,max 42 = normal movement,True ,189
+sandhouse_2016,Sandhouse et al. (2016),0.1356,0.2126,0.0452,-0.281,0.5523,1,42,47,89,NA,,Other ,distance visual acuity testing  - OD,TRUE,"Best out of 70. The participant was scored on the number 
+of letters that he or she read correctly out of 
+a total of 70",True ,190
+sandhouse_2016,Sandhouse et al. (2016),0.091,0.2124,0.0451,-0.3254,0.5074,1,42,47,89,NA,,Other ,distance visual acuity testing  - OS,TRUE,"Best out of 70. The participant was scored on the number 
+of letters that he or she read correctly out of 
+a total of 70",True ,191
+sandhouse_2016,Sandhouse et al. (2016),-0.0001,0.2123,0.0451,-0.4162,0.4161,1,42,47,89,NA,,Other ,accommodative system testing - OD,FALSE,"Closer is better I believe. The accommodative 
+amplitude (in diopters) was recorded as the 
+reciprocal of the distance (in meters) from the 
+card to the participants at the first sustained blur.",True ,192
+sandhouse_2016,Sandhouse et al. (2016),-0.0465,0.2124,0.0451,-0.4627,0.3698,1,42,47,89,NA,,Other ,accommodative system testing - OS,FALSE,"Closer is better I believe. The accommodative 
+amplitude (in diopters) was recorded as the 
+reciprocal of the distance (in meters) from the 
+card to the participants at the first sustained blur.",True ,193
+sandhouse_2016,Sandhouse et al. (2016),-0.1543,0.2127,0.0452,-0.5711,0.2625,1,42,47,89,NA,,Other ,local stereoacuity testing,FALSE,Lower is better,True ,194
+sandhouse_2016,Sandhouse et al. (2016),-0.0715,0.2124,0.0451,-0.4879,0.3448,1,42,47,89,NA,,Other ,pupillary size measurement - OD Bright,FALSE,N/A,True ,195
+sandhouse_2016,Sandhouse et al. (2016),-0.1102,0.2125,0.0452,-0.5267,0.3063,1,42,47,89,NA,,Other ,pupillary size measurement - OS Bright,FALSE,N/A,True ,196
+sandhouse_2016,Sandhouse et al. (2016),0.1408,0.2126,0.0452,-0.2759,0.5575,1,42,47,89,NA,,Other ,pupillary size measurement - OD Dim,FALSE,N/A,True ,197
+sandhouse_2016,Sandhouse et al. (2016),0.0745,0.2124,0.0451,-0.3418,0.4908,1,42,47,89,NA,,Other ,pupillary size measurement - OS DIM,FALSE,N/A,True ,198
+sandhouse_2016,Sandhouse et al. (2016),-0.0432,0.2124,0.0451,-0.4594,0.373,1,42,47,89,NA,,Other ,vergence system testing - CT near prism D,FALSE,N/A,True ,199
+sandhouse_2016,Sandhouse et al. (2016),0.1747,0.2127,0.0453,-0.2423,0.5916,1,42,47,89,NA,,Other ,vergence system testing - NPC break,FALSE,Lower is better,True ,200
+sandhouse_2016,Sandhouse et al. (2016),0.0065,0.2123,0.0451,-0.4097,0.4227,1,42,47,89,NA,,Other ,vergence system testing - NPC recovery,FALSE,Lower is better,True ,201
+sandhouse_2016,Sandhouse et al. (2016),0.1704,0.2127,0.0453,-0.2465,0.5873,2,42,47,89,NA,,Other ,distance visual acuity testing  - OD,TRUE,"Best out of 70. The participant was scored on the number 
+of letters that he or she read correctly out of 
+a total of 70",True ,202
+sandhouse_2016,Sandhouse et al. (2016),-0.1044,0.2125,0.0451,-0.5208,0.3121,2,42,47,89,NA,,Other ,distance visual acuity testing  - OS,TRUE,"Best out of 70. The participant was scored on the number 
+of letters that he or she read correctly out of 
+a total of 70",True ,203
+sandhouse_2016,Sandhouse et al. (2016),-0.3704,0.2142,0.0459,-0.7902,0.0494,2,42,47,89,NA,,Other ,accommodative system testing - OD,FALSE,"Closer is better I believe. The accommodative 
+amplitude (in diopters) was recorded as the 
+reciprocal of the distance (in meters) from the 
+card to the participants at the first sustained blur.",True ,204
+sandhouse_2016,Sandhouse et al. (2016),-0.3381,0.2139,0.0457,-0.7572,0.0811,2,42,47,89,NA,,Other ,accommodative system testing - OS,FALSE,"Closer is better I believe. The accommodative 
+amplitude (in diopters) was recorded as the 
+reciprocal of the distance (in meters) from the 
+card to the participants at the first sustained blur.",True ,205
+sandhouse_2016,Sandhouse et al. (2016),-0.0902,0.2124,0.0451,-0.5066,0.3262,2,42,47,89,NA,,Other ,local stereoacuity testing,FALSE,Lower is better,True ,206
+sandhouse_2016,Sandhouse et al. (2016),0.018,0.2123,0.0451,-0.3981,0.4342,2,42,47,89,NA,,Other ,pupillary size measurement - OD Bright,FALSE,N/A,True ,207
+sandhouse_2016,Sandhouse et al. (2016),0.0443,0.2124,0.0451,-0.3719,0.4605,2,42,47,89,NA,,Other ,pupillary size measurement - OS Bright,FALSE,N/A,True ,208
+sandhouse_2016,Sandhouse et al. (2016),-0.0152,0.2123,0.0451,-0.4313,0.401,2,42,47,89,NA,,Other ,pupillary size measurement - OD Dim,FALSE,N/A,True ,209
+sandhouse_2016,Sandhouse et al. (2016),0,0.2123,0.0451,-0.4162,0.4162,2,42,47,89,NA,,Other ,pupillary size measurement - OS DIM,FALSE,N/A,True ,210
+sandhouse_2016,Sandhouse et al. (2016),-0.0321,0.2123,0.0451,-0.4483,0.3841,2,42,47,89,NA,,Other ,vergence system testing - CT near prism D,FALSE,N/A,True ,211
+sandhouse_2016,Sandhouse et al. (2016),-0.1601,0.2127,0.0452,-0.577,0.2567,2,42,47,89,NA,,Other ,vergence system testing - NPC break,FALSE,Lower is better,True ,212
+sandhouse_2016,Sandhouse et al. (2016),0.159,0.2127,0.0452,-0.2578,0.5758,2,42,47,89,NA,,Other ,vergence system testing - NPC recovery,FALSE,Lower is better,True ,213
+sandhouse_2011,Sandhouse et al. (2011),0.5401,0.3787,0.1434,-0.2022,1.2823,1,14,15,29,NS,,Other ,distance visual acuity testing  - OD,TRUE,"Best out of 70. The participant was scored on the number 
+of letters that he or she read correctly out of 
+a total of 70",True ,214
+sandhouse_2011,Sandhouse et al. (2011),0.3583,0.3748,0.1404,-0.3762,1.0928,1,14,15,29,NS,,Other ,distance visual acuity testing  - OS,TRUE,"Best out of 70. The participant was scored on the number 
+of letters that he or she read correctly out of 
+a total of 70",True ,215
+sandhouse_2011,Sandhouse et al. (2011),0.3572,0.3747,0.1404,-0.3772,1.0917,1,14,15,29,NS,,Other ,accommodative system testing - OD,FALSE,"Closer is better I believe. The accommodative 
+amplitude (in diopters) was recorded as the 
+reciprocal of the distance (in meters) from the 
+card to the participants at the first sustained blur.",True ,216
+sandhouse_2011,Sandhouse et al. (2011),0.3099,0.374,0.1398,-0.423,1.0429,1,14,15,29,NS,,Other ,accommodative system testing - OS,FALSE,"Closer is better I believe. The accommodative 
+amplitude (in diopters) was recorded as the 
+reciprocal of the distance (in meters) from the 
+card to the participants at the first sustained blur.",True ,217
+sandhouse_2011,Sandhouse et al. (2011),-0.1401,0.3721,0.1385,-0.8694,0.5892,1,14,15,29,NS,,Other ,local stereoacuity testing,FALSE,Lower is better,True ,218
+sandhouse_2011,Sandhouse et al. (2011),0.0137,0.3716,0.1381,-0.7146,0.7421,1,14,15,29,NS,,Other ,pupillary size measurement - OD Bright,FALSE,N/A,True ,219
+sandhouse_2011,Sandhouse et al. (2011),-0.0914,0.3718,0.1382,-0.8201,0.6374,1,14,15,29,S,,Other ,pupillary size measurement - OS Bright,FALSE,N/A,True ,220
+sandhouse_2011,Sandhouse et al. (2011),0.0688,0.3717,0.1382,-0.6598,0.7974,1,14,15,29,NS,,Other ,pupillary size measurement - OD Dim,FALSE,N/A,True ,221
+sandhouse_2011,Sandhouse et al. (2011),0.1188,0.372,0.1384,-0.6103,0.8478,1,14,15,29,NS,,Other ,pupillary size measurement - OS DIM,FALSE,N/A,True ,222
+sandhouse_2011,Sandhouse et al. (2011),0.5025,0.3778,0.1427,-0.2379,1.2429,1,14,15,29,NS,,Other ,vergence system testing - CT near prism D,FALSE,N/A,True ,223
+sandhouse_2011,Sandhouse et al. (2011),-0.5004,0.3777,0.1427,-1.2407,0.2399,1,14,15,29,S,,Other ,vergence system testing - NPC break,FALSE,Lower is better,True ,224
+sandhouse_2011,Sandhouse et al. (2011),-0.6238,0.381,0.1452,-1.3707,0.123,1,14,15,29,NS,,Other ,vergence system testing - NPC recovery,FALSE,Lower is better,True ,225
+terrell_2022,Terrell et al. (2022),-0.2383,0.3887,0.1511,-1.0002,0.5236,1,12,15,27,NA,,Function,Hip ROM,TRUE,ROM in degrees,True ,226
+terrell_2022,Terrell et al. (2022),-1.0562,0.4147,0.172,-1.869,-0.2434,1,12,15,27,NA,,Function,Knee ROM,TRUE,ROM in degrees,True ,227
+terrell_2022,Terrell et al. (2022),-0.4586,0.3926,0.1541,-1.2281,0.3109,1,12,15,27,NA,,Function,Ankle ROM,TRUE,ROM in degrees,True ,228
+vandenplas_2008,Vandenplas et al. (2008),-0.1496,0.3795,0.144,-0.8934,0.5941,1,13,15,28,NA,,Sleep,Number of OSA recorded ,FALSE,Mean after treatment ,True ,229
+vandenplas_2008,Vandenplas et al. (2008),0.3025,0.3812,0.1453,-0.4447,1.0497,1,13,15,28,0.43,,Sleep,Number of OSA recorded ,TRUE,"Difference, higher is better ",True ,230
+wahl_2008,Wahl et al. (2008),-0.0835,0.3385,0.1146,-0.7469,0.58,1,21,23,44,NS,,Other ,Incidence of acute otitis media ,FALSE,higher is worse,True ,231
+wyatt_2011,Wyatt et al. (2011),0.4147,0.2074,0.043,0.0081,0.8213,1,53,43,96,NA,,Psychological,Child Health Questionaire - Family Activity ,TRUE,Higher score = better family functioning,True ,232
+wyatt_2011,Wyatt et al. (2011),0.5135,0.2262,0.0512,0.0702,0.9568,1,46,36,82,NA,,Function,Child Health Questionaire - Physical Summary,TRUE,Higher score = better health,True ,233
+wyatt_2011,Wyatt et al. (2011),0.1595,0.2229,0.0497,-0.2773,0.5964,1,46,36,82,NA,,Psychological,Child Health Questionaire - Psychological Summary,TRUE,Higher score = better health,True ,234
+wyatt_2011,Wyatt et al. (2011),-0.102,0.2067,0.0427,-0.5072,0.3032,1,53,42,95,NA,,Function,Short Form 36 - Physical Component Summary ,TRUE,"Scores have a population mean of 50, any score above/below indicating better/poorer health.",True ,235
+wyatt_2011,Wyatt et al. (2011),0.7646,0.214,0.0458,0.3452,1.1841,1,53,42,95,NA,,Psychological,Short Form 36 - Mental Component Summary ,TRUE,"Scores have a population mean of 50, any score above/below indicating better/poorer health.",True ,236
+wyatt_2011,Wyatt et al. (2011),0.3761,0.2353,0.0554,-0.0852,0.8374,1,40,34,74,NA,,Sleep,Mean Time Asleep,TRUE,Higher is better,True ,237
+wyatt_2011,Wyatt et al. (2011),-0.7517,0.2429,0.059,-1.2278,-0.2756,1,39,34,73,NA,,Sleep,Mean Time to Sleep,FALSE,Higher is worse,True ,238
+wyatt_2011,Wyatt et al. (2011),0.2072,0.1767,0.0312,-0.1391,0.5536,2,67,62,129,NA,,Function,Gross Motor Function Measure - 66,TRUE,"Scores range 0–100, higher score = better mobility",True ,239
+wyatt_2011,Wyatt et al. (2011),0.1813,0.1944,0.0378,-0.1998,0.5624,2,58,49,107,NA,,Function,Child Health Questionaire - Physical Summary,TRUE,Higher score = better health,True ,240
+wyatt_2011,Wyatt et al. (2011),0.3052,0.1952,0.0381,-0.0773,0.6877,2,58,49,107,NA,,Psychological,Child Health Questionaire - Psychological Summary,TRUE,Higher score = better health,True ,241
+wyatt_2011,Wyatt et al. (2011),0.0301,0.1798,0.0323,-0.3224,0.3825,2,65,59,124,NA,,Function,Short Form 36 - Physical Component Summary ,TRUE,"Scores have a population mean of 50, any score above/below indicating better/poorer health.",True ,242
+wyatt_2011,Wyatt et al. (2011),0.1678,0.1801,0.0324,-0.1853,0.5208,2,65,59,124,NA,,Psychological,Short Form 36 - Mental Component Summary ,TRUE,"Scores have a population mean of 50, any score above/below indicating better/poorer health.",True ,243
+wyatt_2011,Wyatt et al. (2011),-0.3492,0.2398,0.0575,-0.8192,0.1207,2,38,33,71,NA,,Sleep,Mean Time Asleep,TRUE,Higher is better,True ,244
+wyatt_2011,Wyatt et al. (2011),-0.4489,0.241,0.0581,-0.9212,0.0234,2,38,33,71,NA,,Sleep,Mean Time to Sleep,FALSE,Higher is worse,True ,245
+wyatt_2011,Wyatt et al. (2011),-0.4284,0.2619,0.0686,-0.9417,0.0848,2,35,26,61,NA,,Pain ,Best Day Pediatric Pain Profile ,FALSE,"Scores range 0–60, higher score = worst pain",True ,246
+wyatt_2011,Wyatt et al. (2011),-0.3757,0.2612,0.0682,-0.8877,0.1362,2,35,26,61,NA,,Pain ,Worst Dat Pediatric Pain Profile ,FALSE,"Scores range 0–60, higher score = worst pain",True ,247
