@@ -1,0 +1,475 @@
+---
+title: "Meta Analysis Final"
+output: html_notebook
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(metafor)
+library(dmetar)
+library(esc)
+library(dplyr)
+library(tidyverse)
+library(meta)
+library(ggplot2)
+library(metasens)
+library(numDeriv)
+library(MAd)
+```
+
+First import the data.
+
+```{r}
+library(readr)
+Effect_Size_Data <- read_csv("Effect_Size_Data_edited-backup.csv")
+```
+Then clean it up a bit so we are only including columns we want. 
+
+```{r}
+
+cleaned_effects = data.frame('Author' = Effect_Size_Data$Author, 'TE' = Effect_Size_Data$TE, 'SE' = Effect_Size_Data$SE, 'VAR' = Effect_Size_Data$Varience, 'Outcome' = Effect_Size_Data$Outcome_category_Ryan, 'RoB' = Effect_Size_Data$`Risk of Bias`, 'Sample Size' = Effect_Size_Data$`Total Sample Size`, 'es.id' = Effect_Size_Data$es.id)
+```
+
+Now lets tackle a multilevel analysis.
+
+First by author:
+
+```{r}
+
+#this model sets 3 levels, the highest level is 1, then author, then individual effect size
+author.model <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Author,
+                     data = cleaned_effects,
+                     random = ~ 1 | Author/es.id, 
+                     test = "t", 
+                     method = "REML")
+
+summary(author.model)
+
+i2_auth <- var.comp(author.model)
+
+summary(i2_auth)
+
+plot(i2_auth)
+
+```
+Then by outcome (this is probably the more "correct" way to go about this:
+
+```{r}
+
+#this model sets 3 levels, the highest level is 1, then outcome, then individual effect size
+outcome.model <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Outcome,
+                     data = cleaned_effects,
+                     random = ~ 1 | Outcome/es.id, 
+                     test = "t", 
+                     method = "REML")
+
+summary(outcome.model)
+
+i2_outcome <- var.comp(outcome.model)
+
+summary(i2_outcome)
+
+plot(i2_outcome)
+```
+This is interesting. It seems to imply that there is ~some~ sort of true effect size. I don't know now informative this is though due to the very very high heterogeneity. It seems that this would not be an especially useful measure. I think it might even be worthwile to run this on INDIVIDUALLY on each outcome. Most of our variance is coming from the second level i.e., the mixed outcomes. 
+
+Now lets add in RoB modifier 
+
+```{r}
+
+#same as above models but with the addition of RoB as a modifier
+author.rob.model <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Author,
+                     data = cleaned_effects,
+                     random = ~ 1 | Author/es.id, 
+                     test = "t", 
+                     method = "REML",
+                     mods = ~ RoB)
+
+summary(author.rob.model)
+
+
+```
+Then by outcome:
+
+```{r}
+
+outcome.rob.model <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Outcome,
+                     data = cleaned_effects,
+                     random = ~ 1 | Outcome/es.id, 
+                     test = "t", 
+                     method = "REML",
+                     mods = ~RoB)
+
+summary(outcome.rob.model)
+
+
+```
+Unsuprisingly RoB impacts the results abit. Again though, I'm not sure how informative this is. It might not make the final cut. 
+
+
+Lets try aggregating effect sizes again by paper and then by outcome. We would expect to see largely similar results as above, but possibly less precise. 
+
+```{r}
+#convert to an escalc object 
+
+COMM <- escalc(yi = TE,
+               sei = SE,
+               data = cleaned_effects)
+```
+
+Now we can aggregate by author and also by outcome. I'm going to try another package
+
+```{r}
+COMM.agg.auth <- agg(id = Author, es = TE, var = VAR, cor = 0.6, method = "BHHR", mod = NULL, data = COMM)
+
+COMM.agg.out <- agg(id = Outcome, es = TE, var = VAR,  cor = 0.6, method = "BHHR", mod = NULL, data = COMM)
+
+COMM.agg.auth.modRoB <- agg(id = Author, es = TE, var = VAR,  cor = 0.6, method = "BHHR", mod = NULL, data = COMM)
+
+#add back in RoB columns for later
+
+COMM.agg.auth$RoB = c("High", "Low", "High", "High", "Low", "Low", "High", "High", "Low", "High", "High", "Low", "High", "Some Concerns", "High", "Low", "Low", "High", "High", "High", "Some Concerns", "High", "Some Concerns", "High") 
+
+COMM.agg.auth.modRoB$RoB = c("High", "Low", "High", "High", "Low", "Low", "High", "High", "Low", "High", "High", "Low", "High", "Low", "High", "Low", "Low", "High", "High", "High", "Low", "High", "Low", "High") 
+
+```
+
+That worked much better. There was something weird about that other function.
+
+Okay lets try to pool and see what happens 
+
+```{r}
+m.gen.auth <- metagen(TE = es,
+                 seTE = sqrt(var),
+                 studlab = id,
+                 data = COMM.agg.auth,
+                 sm = "SMD",
+                 fixed = FALSE,
+                 random = TRUE,
+                 method.random.ci = "HK",
+                 method.tau = "SJ",
+                 adhoc.hakn.ci = "ci",
+                 method.bias = "Thompson",
+                 title = "Cranial OMM")
+
+m.gen.out <- metagen(TE = es,
+                 seTE = sqrt(var),
+                 studlab = id,
+                 data = COMM.agg.out,
+                 sm = "SMD",
+                 fixed = FALSE,
+                 random = TRUE,
+                 method.random.ci = "HK",
+                 method.tau = "SJ",
+                 adhoc.hakn.ci = "ci",
+                 method.bias = "Thompson",
+                 title = "Cranial OMM")
+
+m.gen.auth.modRoB <- metagen(TE = es,
+                 seTE = sqrt(var),
+                 studlab = id,
+                 data = COMM.agg.auth.modRoB,
+                 sm = "SMD",
+                 fixed = FALSE,
+                 random = TRUE,
+                 method.random.ci = "HK",
+                 method.tau = "SJ",
+                 adhoc.hakn.ci = "ci",
+                 method.bias = "Thompson",
+                 title = "Cranial OMM")
+
+```
+
+Forest plots
+
+```{r}
+forest.meta(m.gen.auth, 
+            sortvar = TE,
+            prediction = TRUE, 
+            print.tau2 = TRUE,
+            leftcols = c("studlab", "TE", "seTE", "RoB"),
+            leftlabs = c("Title", "g", "SE", "Risk Of Bias"))
+
+forest.meta(m.gen.out, 
+            sortvar = TE,
+            prediction = TRUE, 
+            print.tau2 = TRUE,
+            leftlabs = c("Outcome", "g", "SE"))
+```
+
+This is interesting. As expected, most effect sizes cross zero. The outcome based one is a little more interesting. I think we have decent granularity in sub categories, although more might be good. Thanks to Ryan for helping me there. Luckily these are very similar to our multi-level model. I still am not sure this is a particularly good way of representing this data. On one hand our question is "is Cranial OMM good for ~anything~" on the other hand we don't want to bury disparate effects. 
+
+Now lets tackle subgroup analysis of risk of bias
+
+```{r}
+update.meta(m.gen.auth, 
+            subgroup = RoB, 
+            tau.common = TRUE)
+
+```
+
+Just checking to see if grouping some concern with low makes a difference. 
+
+```{r}
+update.meta(m.gen.auth.modRoB, 
+            subgroup = RoB, 
+            tau.common = FALSE)
+
+```
+
+
+
+
+
+
+
+Unsurprisingly there are again similar results. We are left with the same question though, is this a useful comparision?
+
+Lets look at small study effects 
+
+```{r}
+col.contour = c("gray65", "gray75", "gray85")
+
+
+# Produce funnel plot
+funnel.meta(m.gen.auth,
+            contour = c(0.9, 0.95, 0.99),
+            studlab = FALSE,
+            col.contour = col.contour)
+
+legend(x = 1.6, y = 0.01, 
+       legend = c("p < 0.1", "p < 0.05", "p < 0.01"),
+       fill = col.contour)
+
+
+```
+```{r}
+
+metabias(m.gen.auth, method.bias = "Egger", plotit = TRUE)
+
+eggers.test(m.gen.auth)
+```
+
+There is some obvious asymmetry here (in addition to the fact that only a handful of studies are "significant"). I would expect this to be due to the general low quality of the studies. Linear regression and Egger's test are non-significant but seem to ~indicate~ asymmetry. We will hold off on doing any corrections due to the non-significant results. 
+
+
+Lets run a limit meta-analysis anyway. 
+
+```{r}
+lmeta <- limitmeta(m.gen.auth)
+
+funnel.limitmeta(lmeta)
+
+funnel.limitmeta(lmeta, shrunken = TRUE)
+
+lmeta
+
+```
+
+This obviously slams the effect sizes down - though it's hard to argue this is worthwhile when our tests indicate that there is not any small-study effects (as unlikely as that may be)
+
+
+Lets find outliers 
+
+```{r}
+find.outliers(m.gen.auth)
+```
+
+This is a simple outlier detection but I think it makes sense given what we have seen already. 
+
+
+```{r}
+m.gen.inf <- InfluenceAnalysis(m.gen.auth, random = TRUE)
+```
+
+```{r}
+plot(m.gen.inf, "baujat")
+plot(m.gen.inf, "influence")
+plot(m.gen.inf, "es")
+plot(m.gen.inf, "i2")
+```
+These plots more or less confirm at at least 2 are major outliers. Lets try running some of the above without all 3 for the sake of completeness. 
+
+
+```{r}
+COMM.ex <- COMM[COMM$Author != "Castejon-Castejon et al. (2022)" & COMM$Author != "Mazreati et al. (2021)" & COMM$Author !=  "Terrell et al. (2022)", ]
+
+COMM.agg.auth.ex <- agg(id = Author, es = TE, var = VAR, cor = 0.6, method = "BHHR", mod = NULL, data = COMM.ex)
+
+COMM.agg.out.ex <- agg(id = Outcome, es = TE, var = VAR,  cor = 0.6, method = "BHHR", mod = NULL, data = COMM.ex)
+
+COMM.agg.auth.ex$RoB = c("High", "Low", "High", "Low", "Low", "High", "High", "Low", "High", "High", "Low", "High", "Some Concerns", "Low", "Low", "High", "High", "High", "High", "Some Concerns", "High") 
+
+
+
+m.gen.auth.ex <- metagen(TE = es,
+                 seTE = sqrt(var),
+                 studlab = id,
+                 data = COMM.agg.auth.ex,
+                 sm = "SMD",
+                 fixed = FALSE,
+                 random = TRUE,
+                 method.random.ci = "HK",
+                 method.tau = "SJ",
+                 adhoc.hakn.ci = "ci",
+                 method.bias = "Thompson",
+                 title = "Cranial OMM")
+
+
+
+
+m.gen.out.ex <- metagen(TE = es,
+                 seTE = sqrt(var),
+                 studlab = id,
+                 data = COMM.agg.out.ex,
+                 sm = "SMD",
+                 fixed = FALSE,
+                 random = TRUE,
+                 method.random.ci = "HK",
+                 method.tau = "SJ",
+                 adhoc.hakn.ci = "ci",
+                 method.bias = "Thompson",
+                 title = "Cranial OMM")
+
+```
+
+Forest plots
+
+```{r}
+forest.meta(m.gen.auth.ex, 
+            sortvar = TE,
+            prediction = TRUE, 
+            print.tau2 = TRUE,
+            leftcols = c("studlab", "TE", "seTE"),
+            leftlabs = c("Title", "g", "SE"))
+
+forest.meta(m.gen.out.ex, 
+            sortvar = TE,
+            prediction = TRUE, 
+            print.tau2 = TRUE,
+            leftlabs = c("Outcome", "g", "SE"))
+```
+
+This is extremely interesting. While there is still an overall positive effect, it has shrunk substantially. Additionally, nearly all outcomes cross zero. This is in line with the results that we saw when doing the literature review. This is promising. 
+
+We can take a look at risk of bias again. 
+
+```{r}
+update.meta(m.gen.auth.ex, 
+            subgroup = RoB, 
+            tau.common = FALSE)
+
+```
+Interesting, though not super informative. Even the high risk of bias studies show very little effect. 
+
+```{r}
+
+#this model sets 3 levels, the highest level is 1, then author, then individual effect size
+author.model.ex <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Author,
+                     data = cleaned_effects,
+                     random = ~ 1 | Author/es.id, 
+                     test = "t", 
+                     method = "REML",
+                     subset = !(Author %in% c("Castejon-Castejon et al. (2022)", "Munoz-Gomez et al. (2022)", "Mazreati et al. (2021)", "Philippi et al. (2006)")))
+
+summary(author.model)
+
+i2_auth <- var.comp(author.model)
+
+summary(i2_auth)
+
+plot(i2_auth)
+
+
+#this model sets 3 levels, the highest level is 1, then outcome, then individual effect size
+outcome.model.ex <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Outcome,
+                     data = cleaned_effects,
+                     random = ~ 1 | Outcome/es.id, 
+                     test = "t", 
+                     method = "REML",
+                     subset = !(Author %in% c("Castejon-Castejon et al. (2022)", "Munoz-Gomez et al. (2022)", "Mazreati et al. (2021)", "Philippi et al. (2006)")))
+
+summary(outcome.model)
+
+i2_outcome <- var.comp(outcome.model)
+
+summary(i2_outcome)
+
+plot(i2_outcome)
+```
+
+```{r}
+
+#same as above models but with the addition of RoB as a modifier
+author.rob.model.ex <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Author,
+                     data = cleaned_effects,
+                     random = ~ 1 | Author/es.id, 
+                     test = "t", 
+                     method = "REML",
+                     mods = ~ RoB,
+                     subset = !(Author %in% c("Castejon-Castejon et al. (2022)", "Munoz-Gomez et al. (2022)", "Mazreati et al. (2021)", "Philippi et al. (2006)")))
+
+summary(author.rob.model)
+
+outcome.rob.model.ex <- rma.mv(yi = TE, 
+                     V = VAR, 
+                     slab = Outcome,
+                     data = cleaned_effects,
+                     random = ~ 1 | Outcome/es.id, 
+                     test = "t", 
+                     method = "REML",
+                     mods = ~RoB,
+                     subset = !(Author %in% c("Castejon-Castejon et al. (2022)", "Munoz-Gomez et al. (2022)", "Mazreati et al. (2021)", "Philippi et al. (2006)")))
+
+summary(outcome.rob.model)
+
+
+```
+Lets look at small-study size effects again
+
+
+```{r}
+
+# Produce funnel plot
+funnel.meta(m.gen.auth.ex,
+            contour = c(0.9, 0.95, 0.99),
+            studlab = FALSE,
+            col.contour = col.contour)
+
+legend(x = 1.6, y = 0.01, 
+       legend = c("p < 0.1", "p < 0.05", "p < 0.01"),
+       fill = col.contour)
+
+
+```
+```{r}
+
+metabias(m.gen.auth.ex, method.bias = "Egger", plotit = TRUE)
+```
+
+```{r}
+lmeta.ex <- limitmeta(m.gen.auth.ex)
+
+funnel.limitmeta(lmeta.ex)
+
+funnel.limitmeta(lmeta.ex, shrunken = TRUE)
+
+```
+
+These look much better and seem fairly convincing for no weird publication bias or small-study effects. 
+
+The last thing I want to do is look at a meta-regression
+
