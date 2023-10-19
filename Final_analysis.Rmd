@@ -473,3 +473,61 @@ These look much better and seem fairly convincing for no weird publication bias 
 
 The last thing I want to do is look at a meta-regression
 
+
+Okay actual last thing is p-value analysis. 
+
+```{r}
+m.gen.p <- metagen(TE = cleaned_effects$TE,
+                 seTE = cleaned_effects$SE,
+                 data = cleaned_effects,
+                 slab = cleaned_effects$Outcome,
+                 sm = "g",
+                 fixed = FALSE,
+                 random = TRUE,
+                 method.random.ci = "KR",
+                 method.tau = "SJ",
+                 adhoc.hakn.ci = "ci",
+                 method.bias = "Thompson",
+                 title = "Cranial OMM")
+
+pcurve(m.gen.p)
+
+m.gen.p.ex <- metagen(TE = TE,
+                 seTE = SE,
+                 data = COMM.ex,
+                 sm = "g",
+                 fixed = FALSE,
+                 random = TRUE,
+                 method.random.ci = "KR",
+                 method.tau = "SJ",
+                 adhoc.hakn.ci = "ci",
+                 method.bias = "Thompson",
+                 title = "Cranial OMM")
+
+pcurve(m.gen.p.ex)
+
+```
+
+```{r}
+update.meta(m.gen.p, 
+            subgroup = Outcome, 
+            tau.common = FALSE,
+            fixed = FALSE,
+            random = TRUE,
+            method.random.ci = "KR",
+            method.tau = "SJ",
+            adhoc.hakn.ci = "ci",
+            method.bias = "Thompson")
+
+update.meta(m.gen.p.ex, 
+            subgroup = Outcome, 
+            tau.common = FALSE,
+            fixed = FALSE,
+            random = TRUE,
+            method.random.ci = "KR",
+            method.tau = "SJ",
+            adhoc.hakn.ci = "ci",
+            method.bias = "Thompson")
+
+```
+
